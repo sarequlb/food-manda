@@ -1,0 +1,34 @@
+.single-food{
+    border: 1px solid gray;
+    width:325px;
+    height: 550px;
+    border-radius: 5px;
+    position: relative;
+}
+.single-food p,h3{
+    padding: 5px;
+    margin: 0;
+}
+.food-name{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+.add-to-cart{
+    background-color: rgb(255, 0, 170);
+    border: 0;
+    position:absolute;
+    padding: 7px;
+    border-radius: 0px 0px 6px 6px;
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+    color: white;
+    bottom: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-cart:hover{
+    background-color:rgb(255, 0, 10);
+}

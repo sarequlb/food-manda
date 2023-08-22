@@ -1,0 +1,19 @@
+.header-text{
+    color: tomato;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(255, 0, 153);
+    padding: 20px;
+    
+}
+.header img{
+    width: 230px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
